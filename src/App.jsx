@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
     <>
-    <h1 className='text-white bg-black'>OLAAAAAAA</h1>
+      <h1 className='text-white bg-stars'>OLAAAAAAA</h1>
     </>
   )
 }
