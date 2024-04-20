@@ -10,8 +10,9 @@ function App() {
   return (
     <>
      <BrowserRouter>
+     <Navbar/>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/">
           {/* <Route index element={<Home />} /> */}
           <Route path="Mercury" element={<Mercury />} />
 
@@ -19,7 +20,7 @@ function App() {
       </Routes>
     </BrowserRouter>
 
-    <Navbar/>
+   
 
     </>
   )

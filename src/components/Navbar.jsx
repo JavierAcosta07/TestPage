@@ -2,11 +2,11 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <a href="/Mercury">
-
-        Mercury
-
-    </a>
+    <div>
+        <a href="/Mercury" >
+        <h1 className='text-white'>Mercury</h1>
+        </a>
+    </div>
   )
 }
 
